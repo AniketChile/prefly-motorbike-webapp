@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Features from './Features';
 
 function Navbar(props) {
     return (
@@ -10,10 +12,17 @@ function Navbar(props) {
             </div>
             
             <div className="flex items-center space-x-8">
-              <a href="#models" className="text-gray-600 hover:text-gray-900">Models</a>
+              <ul>
+                <li>
+                <Link to={'/features'}><Features/></Link>
+                </li>
+              </ul>
+              {/* <a href="#models" className="text-gray-600 hover:text-gray-900">Models</a>
               <a href="#features" className="text-gray-600 hover:text-gray-900">Features</a>
               <a href="#specs" className="text-gray-600 hover:text-gray-900">Specs</a>
-              <a href="#pricing" className="text-gray-600 hover:text-gray-900">Pricing</a>
+              <a href="#pricing" className="text-gray-600 hover:text-gray-900">Pricing</a> */}
+              
+              
               <button className="ml-4 bg-black text-white px-4 py-2 rounded-full font-medium">Buy Now</button>
             </div>
           </div>

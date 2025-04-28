@@ -1,5 +1,4 @@
 import React from 'react';
-
 function Hero(props) {
     return (
         <section className="pt-32 pb-24">
@@ -20,7 +19,7 @@ function Hero(props) {
           </button>
         </div>
         <div className="mt-16">
-          <img src="/api/placeholder/1200/600" alt="PreFlyPro Bike" className="mx-auto rounded-lg shadow-xl" />
+          <img src='/bike.jpeg' alt="PreFlyPro Bike" className="mx-auto rounded-lg shadow-xl" />
         </div>
       </div>
     </section>

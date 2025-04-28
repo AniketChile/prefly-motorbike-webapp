@@ -38,7 +38,7 @@ function Footer(props) {
               </div>
             </div>
             <div className="mt-12 pt-8 border-t border-gray-800 text-gray-400 text-center">
-              <p>© 2025 PreFly  <Link to={'www.github.com/AniketChile'}/>. All rights reserved.</p>
+              <p>© 2025 PreFly All rights reserved to Aniket Chile.</p>
             </div>
           </div>
         </footer>
