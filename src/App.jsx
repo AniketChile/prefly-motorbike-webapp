@@ -7,6 +7,7 @@ import Gallery from './components/Gallery'
 import Specs from './components/Specs'
 import Footer from './components/Footer'
 import Pricing from './components/Pricing'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,14 +15,8 @@ function App() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
     <Navbar />
-    <main>
-      <Hero />
-      <Features />
-      <Gallery />
-      <Specs />
-      <Pricing />
-    </main>
-    <Footer />
+    <Outlet/>
+    <Footer/>
   </div>
   )
 }

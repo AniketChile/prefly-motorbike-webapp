@@ -14,8 +14,11 @@ function Navbar(props) {
             <div className="flex items-center space-x-8">
               <ul>
                 <li>
-                <Link to={'/features'}><Features/></Link>
+                <Link to={'/models'}>Models</Link>
                 </li>
+                <li><Link to={'/features'}>Features</Link></li>
+                <li><Link to={'/pricing'}>Pricing</Link></li>
+                <li><Link to={'/specs'}>Specs</Link></li>
               </ul>
               {/* <a href="#models" className="text-gray-600 hover:text-gray-900">Models</a>
               <a href="#features" className="text-gray-600 hover:text-gray-900">Features</a>
